@@ -6,8 +6,14 @@ body {
 header {
   background-color: #1f2937;
   display: flex;
-  justify-content: space-between;
-  padding: 16px;
+  justify-content: space-around;
+  padding: 20px;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
 ul {
@@ -33,7 +39,7 @@ ul {
 
 .section-1 {
   background-color: #1f2937;
-  padding: 16px;
+  padding: 64px;
   display: flex;
   justify-content: center;
   gap: 32px;
@@ -57,7 +63,7 @@ ul {
   font-weight: bold;
   border-style: none;
   border-radius: 10px;
-  padding: 4px 18px;
+  padding: 4px 32px;
 
   flex: 0 0 auto;
 }
@@ -79,7 +85,7 @@ ul {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 16px;
+  padding: 64px;
 }
 
 .section-2-illust-container {
@@ -90,6 +96,7 @@ ul {
 
 .section-2-illust {
   max-width: 150px;
+  text-align: center;
 }
 
 .section-2-illust img {
@@ -105,7 +112,7 @@ ul {
 }
 
 .section-2-illust-subtext {
-  font-size: 18px;
+  font-size: 16px;
   color: #1f2937;
 }
 
@@ -113,10 +120,78 @@ ul {
 
 .section-3 {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-content: center;
+  background-color: #e5e7eb;
+  padding: 128px;
 }
 
 .section-3-container {
-  max-width: 800px;
+  max-width: 900px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:flex-end;
+}
+
+.section-3-quote {
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+}
+
+.section-3-quote-subtest {
+  font-size: 20px;
+  color: #1f2937;
+  font-weight: bold;
+}
+
+/* Section 4 */
+
+.section-4 {
+  display: flex;
+  justify-content: center;
+  color: #e5e7eb;
+  padding: 64px;
+}
+
+.section-4-container {
+  display: flex;
+  align-items: center;
+  background-color: #3882f6;
+  padding: 42px 128px;
+  border-radius: 10px;
+  gap: 128px;
+}
+
+.section-4-button {
+  border-style: none;
+  background-color: #3882f6;
+  color: #e5e7eb;
+  border: 2px solid #e5e7eb;
+  border-radius: 10px;
+  padding: 4px 32px;
+  font-weight: bold;
+}
+
+.section-4-header {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.section-4-subtext {
+  font-size: 14px;
+}
+
+/* Footer */
+
+footer {
+  background-color: #1f2937;
+  padding: 32px;
+  color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-text {
+  font-size: 14px;
 }
